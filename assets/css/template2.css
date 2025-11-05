@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #7c7c7c;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  width: 1024px;
+  height: 500px;
+  background-color: #ff8484;
+}
+
+.container div{
+  display: flex;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+.bloco_1{
+  background-color: #ff0000;
+}
+
+.bloco_2{
+  background-color: #00ff00;
+  align-self: center;
+}
+
+.bloco_3{
+  background-color: #0000ff;
+  align-self: flex-end;
+}
